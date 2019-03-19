@@ -1,0 +1,33 @@
+{
+  "name": "kxx-reader-browser",
+  "version": "1.3.0",
+  "description": "Web API streams to parse Gordic (Ginis) KXX export",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Martin Kopeček <martin.kopecek@smallhill.cz>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "kxx-reader-core": "^1.1.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmallhillCZ/kxx-reader.git"
+  },
+  "keywords": [
+    "gordic",
+    "ginis",
+    "kxx"
+  ],
+  "bugs": {
+    "url": "https://github.com/SmallhillCZ/kxx-reader/issues"
+  },
+  "homepage": "https://github.com/SmallhillCZ/kxx-reader#readme"
+}
