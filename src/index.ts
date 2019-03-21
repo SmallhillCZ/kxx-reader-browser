@@ -1,5 +1,7 @@
 import { KxxTransformer, KxxRecord, LineSplit, RecordMerger, RecordParser } from "kxx-reader-core";
 
+export { KxxRecord, KxxRecordBalance } from "kxx-reader-core";
+
 class KxxTransformerInstance<I, O> implements Transformer<I, O>{
 
   controller: TransformStreamDefaultController<O>;
